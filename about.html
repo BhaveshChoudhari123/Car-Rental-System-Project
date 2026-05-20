@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - DriveNow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f1f5f9;
+        }
+
+        header {
+            background-color: #0f172a;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            color: #facc15;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #facc15;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #fde047;
+            text-shadow: 0 0 8px rgba(250,204,21,0.6);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            color: #facc15;
+            text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            color: #e2e8f0;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .feature-box {
+            background-color: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 24px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+        }
+
+        .feature-box h3 {
+            color: #facc15;
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+
+        .feature-box p {
+            color: #cbd5e1;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: #1f2937;
+            color: #f1f5f9;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+        }
+
+        @media(max-width: 600px){
+            .hero h2 { font-size: 28px; }
+            .hero p { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DriveNow</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cars.php">Browse Cars</a>
+        <a href="register.php">Register</a>
+        <a href="login.php">Login</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>About DriveNow</h2>
+    <p>DriveNow is your trusted partner for affordable, reliable, and hassle-free car rentals. Whether you're planning a weekend getaway or need a vehicle for daily commuting, we offer a wide range of cars to suit every need and budget. Our mission is to make car rental simple, transparent, and enjoyable for everyone.</p>
+</section>
+
+<section class="features">
+    <div class="feature-box">
+        <h3>Wide Selection</h3>
+        <p>Choose from compact cars, sedans, SUVs, and luxury vehicles — all maintained to perfection.</p>
+    </div>
+    <div class="feature-box">
+        <h3>Affordable Pricing</h3>
+        <p>Transparent pricing with no hidden fees. Pay only for what you use.</p>
+    </div>
+    <div class="feature-box">
+        <h3>24/7 Support</h3>
+        <p>Our customer service team is available round the clock to assist you with bookings and queries.</p>
+    </div>
+    <div class="feature-box">
+        <h3>Easy Booking</h3>
+        <p>Book your car in just a few clicks with our user-friendly interface and instant confirmation.</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 DriveNow — Your Journey Starts Here
+</footer>
+
+</body>
+</html>
